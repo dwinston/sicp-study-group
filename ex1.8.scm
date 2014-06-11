@@ -10,7 +10,8 @@
      3))
 
 (define (good-enough? guess x)
-  (< (abs (- 1 (/ (improve guess x) guess))) 0.001))
+  (< (abs (- 1 (/ (improve guess x) guess)))
+     0.001))
 
 (define (cube-root x)
   (cube-root-iter 1.0 x))

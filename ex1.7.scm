@@ -50,7 +50,8 @@
 
 
 (define (good-enough? guess x)
-  (< (abs (- 1 (/ (improve guess x) guess))) 0.001))
+  (< (abs (- 1 (/ (improve guess x) guess)))
+     0.001))
 
 
 1 ]=> (/ (sqrt (square 0.001)) 0.001)
