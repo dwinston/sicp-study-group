@@ -62,5 +62,5 @@
 ;Quit!
 
 
-;; The above works better for large numbers, but it still doesn't work for the
+;; The above works better for small numbers, but it still doesn't work for the
 ;; large number. I'm stuck.
