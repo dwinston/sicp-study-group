@@ -1,10 +1,8 @@
 sicp-study-group
 ================
 
-A lay-led study of [SICP](https://mitpress.mit.edu/sicp/) in Berkeley, CA. Organized via [a Meetup.com group](http://www.meetup.com/codeselfstudy/):
+A lay-led study of [SICP](https://mitpress.mit.edu/sicp/) in Berkeley, CA.
 
-* http://www.meetup.com/codeselfstudy/events/187351632/
-* http://www.meetup.com/codeselfstudy/events/187758402/
-* ...
+Organized via [a Meetup.com group](http://www.meetup.com/codeselfstudy/).
 
 This repo houses my solutions to exercises.
