@@ -42,3 +42,4 @@
 (define (h n) (A 2 n))
 
 ; 2^2^2^2...^2, with (- n 1) 2's in total
+; 2^n^n

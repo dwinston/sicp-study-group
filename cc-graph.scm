@@ -17,20 +17,6 @@
         ((= kinds-of-coins 4) 25)
         ((= kinds-of-coins 5) 50)))
 
-
-;; The tree-recursive process of count-change is similar in form to the
-;; tree-recursive Fibonacci computation, which requires a number of steps that
-;; grows exponentially with n and space that grows linearly with n. It seems
-;; that count-change requires O(2^amount) steps and O(amount) space.
-
-;; To visualize the tree, I adapted code from
-;; http://tobilehman.com/blog/2013/04/07/visualization-of-sicp-exercise-1-dot-14/. See below.
-;;
-;; I saved output in "ex1.14.dot" and used GraphViz to visualize as
-;; "ex1.14.tree.pdf".
-;;
-;; GraphViz command: "dot -Tpdf ex1.14.dot -o ex1.14.tree.pdf"
-
 (define (cc-graph amount kinds-of-coins)
 
   (define (display-node label amount kinds-of-coins)
@@ -79,3 +65,5 @@
   (recurse "s" amount kinds-of-coins)
   (newline)
   (display "}"))
+
+(cc-graph 100 5)
